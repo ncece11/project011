@@ -5,8 +5,5 @@
 
 <?php include 'footer.php'; ?>
 
-<?php
-echo 'Hello, World!';
-?>
 
 
