@@ -5,21 +5,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
-    table {
-    font-family: arial, sans-serif;
-    border-collapse: collapse;
-    width: 100%;
+    .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
     }
 
-    td, th {
-    border: 1px solid #dddddd;
-    text-align: left;
+    .title {
+    color: grey;
+    font-size: 18px;
+    }
+
+    button {
+    border: none;
+    outline: 0;
+    display: inline-block;
     padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
     }
 
-    tr:nth-child(even) {
-    background-color: #dddddd;
+    a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+    }
+
+    button:hover, a:hover {
+    opacity: 0.7;
     }
     </style>
 </head>
